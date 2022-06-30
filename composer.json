@@ -1,0 +1,28 @@
+{
+    "name": "cas/pkgdev",
+    "description": "Test Package",
+    "autoload": {
+        "psr-4": {
+            "Cas\\Pkgdev\\": "/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Azhar Raza",
+            "email": "walisystems123@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cas\\Pkgdev\\PkgdevServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
